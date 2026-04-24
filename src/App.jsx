@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Car, Users, DollarSign, Shield, Gauge, Star, Heart } from 'lucide-react';
 
-const API_BASE_URL = 'http://car-match-backend-dp5t.onrender.com/api';
+const API_BASE_URL = 'https://car-match-backend-dp5t.onrender.com/api';
 
 function App() {
   const [step, setStep] = useState('quiz');
